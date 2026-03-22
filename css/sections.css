@@ -189,8 +189,8 @@ nav.desktop-nav a.active {
   inset: 0;
   background: radial-gradient(
     ellipse 80% 60% at 50% 40%,
-    rgba(10, 10, 10, 0.1) 0%,
-    rgba(10, 10, 10, 0.6) 60%,
+    rgba(10, 10, 10, 0.55) 0%,
+    rgba(10, 10, 10, 0.75) 60%,
     rgba(10, 10, 10, 0.95) 100%
   );
 }
@@ -223,6 +223,7 @@ nav.desktop-nav a.active {
   font-family: var(--font-heading);
   color: var(--color-off-white);
   letter-spacing: -0.02em;
+  text-shadow: 0 2px 16px rgba(0, 0, 0, 0.6);
 }
 
 .hero-title-accent {
@@ -239,6 +240,7 @@ nav.desktop-nav a.active {
   margin-bottom: var(--space-8);
   line-height: 1.5;
   text-align: center;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
 }
 
 .hero-ctas {
