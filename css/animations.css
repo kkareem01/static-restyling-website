@@ -1,0 +1,122 @@
+/* ==========================================================================
+   Animations — Scroll Animations & Motion
+   Scroll-triggered reveals and keyframe animations.
+   ========================================================================== */
+
+/* Scroll-triggered animation base */
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 600ms ease-out, transform 600ms ease-out;
+}
+
+.animate-on-scroll.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Stagger delays */
+.animate-on-scroll.delay-1 {
+  transition-delay: 100ms;
+}
+
+.animate-on-scroll.delay-2 {
+  transition-delay: 200ms;
+}
+
+.animate-on-scroll.delay-3 {
+  transition-delay: 300ms;
+}
+
+.animate-on-scroll.delay-4 {
+  transition-delay: 400ms;
+}
+
+/* Fade In */
+.animate-fade-in {
+  opacity: 0;
+  transition: opacity 600ms ease-out;
+}
+
+.animate-fade-in.visible {
+  opacity: 1;
+}
+
+/* Slide Up */
+.animate-slide-up {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 600ms ease-out, transform 600ms ease-out;
+}
+
+.animate-slide-up.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Scale In */
+.animate-scale-in {
+  opacity: 0;
+  transform: scale(0.95);
+  transition: opacity 600ms ease-out, transform 600ms ease-out;
+}
+
+.animate-scale-in.visible {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* Hero cinematic entrance — slower pace, subtle scale for Apple feel */
+.hero-entrance {
+  opacity: 0;
+  transform: translateY(30px) scale(0.98);
+  transition: opacity 800ms cubic-bezier(0.25, 0.46, 0.45, 0.94),
+              transform 800ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.hero-entrance.visible {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+.hero-delay-1 { transition-delay: 200ms; }
+.hero-delay-2 { transition-delay: 400ms; }
+.hero-delay-3 { transition-delay: 600ms; }
+.hero-delay-4 { transition-delay: 900ms; }
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  .animate-on-scroll,
+  .animate-fade-in,
+  .animate-slide-up,
+  .animate-scale-in,
+  .hero-entrance {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  .animate-on-scroll.visible,
+  .animate-fade-in.visible,
+  .animate-slide-up.visible,
+  .animate-scale-in.visible,
+  .hero-entrance.visible {
+    opacity: 1;
+    transform: none;
+  }
+
+  .animate-on-scroll.delay-1,
+  .animate-on-scroll.delay-2,
+  .animate-on-scroll.delay-3,
+  .animate-on-scroll.delay-4,
+  .hero-delay-1,
+  .hero-delay-2,
+  .hero-delay-3,
+  .hero-delay-4 {
+    transition-delay: 0ms;
+  }
+
+  .scroll-indicator {
+    animation: none;
+  }
+}

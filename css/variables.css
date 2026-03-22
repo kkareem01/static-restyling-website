@@ -1,0 +1,68 @@
+/* ==========================================================================
+   Variables — Design Tokens
+   All CSS custom properties for the Static Restyling design system.
+   ========================================================================== */
+
+:root {
+  /* Colors */
+  --color-black: #0A0A0A;
+  --color-charcoal: #1A1A1A;
+  --color-graphite: #2D2D2D;
+  --color-steel: #6B6B6B;
+  --color-silver: #A3A3A3;
+  --color-off-white: #F0EDE8;
+  --color-cream: #FAF8F5;
+  --color-white: #FFFFFF;
+  --color-accent: #E8372C;
+  --color-accent-hover: #C92E24;
+  --color-accent-soft: rgba(232, 55, 44, 0.1);
+  --color-gold: #C9A84C;
+
+  /* Typography — Families */
+  --font-heading: 'Space Grotesk', sans-serif;
+  --font-body: 'Outfit', sans-serif;
+  --font-display: 'Playfair Display', serif;
+
+  /* Typography — Sizes (mobile-first) */
+  --text-hero: 2.5rem;
+  --text-h1: 2rem;
+  --text-h2: 1.75rem;
+  --text-h3: 1.25rem;
+  --text-body: 1rem;
+  --text-body-lg: 1.125rem;
+  --text-small: 0.875rem;
+  --text-caption: 0.75rem;
+
+  /* Spacing (8px grid) */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-24: 6rem;
+  --space-32: 8rem;
+
+  /* Border Radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.5);
+  --shadow-glow: 0 0 20px rgba(232, 55, 44, 0.3);
+
+  /* Layout */
+  --container-max: 1280px;
+  --container-narrow: 960px;
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-base: 250ms ease;
+  --transition-slow: 400ms ease-out;
+}

@@ -1,0 +1,117 @@
+/* ==========================================================================
+   Base — Global Element Styles
+   Default styling for HTML elements and light-section overrides.
+   ========================================================================== */
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-black);
+  color: var(--color-off-white);
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+  line-height: 1.1;
+  font-weight: 600;
+  color: var(--color-off-white);
+}
+
+h1 {
+  font-size: var(--text-h1);
+  font-weight: 700;
+}
+
+h2 {
+  font-size: var(--text-h2);
+}
+
+h3 {
+  font-size: var(--text-h3);
+}
+
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Links */
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Selection */
+::selection {
+  background: var(--color-accent);
+  color: var(--color-white);
+}
+
+/* Focus */
+*:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+/* Light section overrides */
+.section-light {
+  color: var(--color-black);
+}
+
+.section-light h1,
+.section-light h2,
+.section-light h3,
+.section-light h4,
+.section-light h5,
+.section-light h6 {
+  color: var(--color-black);
+}
+
+.section-light p {
+  color: var(--color-black);
+}
+
+/* Body text sizes */
+.text-body-lg {
+  font-size: var(--text-body-lg);
+  font-weight: 300;
+}
+
+.text-small {
+  font-size: var(--text-small);
+}
+
+.text-caption {
+  font-size: var(--text-caption);
+  font-weight: 500;
+}
+
+@media (min-width: 1024px) {
+  body {
+    font-size: 1.125rem;
+  }
+
+  .text-body-lg {
+    font-size: 1.25rem;
+  }
+}

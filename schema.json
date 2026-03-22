@@ -1,0 +1,266 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "AutoBodyShop",
+      "@id": "https://staticrestyling.com/#business",
+      "name": "Static Restyling",
+      "alternateName": "Static Restyling Auto-Styling Shop",
+      "description": "Professional vehicle wrapping, window tinting, paint protection film, and commercial wraps in Snellville, GA. Serving Gwinnett County 7 days a week.",
+      "url": "https://staticrestyling.com",
+      "telephone": "+14044527659",
+      "email": "",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2121 Hewatt Rd SW",
+        "addressLocality": "Snellville",
+        "addressRegion": "GA",
+        "postalCode": "30039",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 33.8576,
+        "longitude": -84.0199
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "08:00",
+          "closes": "20:30"
+        }
+      ],
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Snellville",
+          "containedInPlace": {
+            "@type": "State",
+            "name": "Georgia"
+          }
+        },
+        { "@type": "City", "name": "Lawrenceville" },
+        { "@type": "City", "name": "Lilburn" },
+        { "@type": "City", "name": "Duluth" },
+        { "@type": "City", "name": "Suwanee" },
+        { "@type": "City", "name": "Loganville" },
+        { "@type": "City", "name": "Grayson" },
+        { "@type": "City", "name": "Norcross" },
+        { "@type": "City", "name": "Buford" },
+        { "@type": "City", "name": "Stone Mountain" },
+        { "@type": "City", "name": "Dacula" },
+        { "@type": "City", "name": "Conyers" },
+        { "@type": "AdministrativeArea", "name": "Gwinnett County" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Auto Restyling Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Window Tinting",
+            "description": "Professional ceramic and carbon window tinting for UV protection, heat rejection, and privacy."
+          },
+          {
+            "@type": "OfferCatalog",
+            "name": "Vinyl Wrapping",
+            "description": "Full and partial vehicle vinyl wraps in matte, gloss, satin, chrome, and custom designs."
+          },
+          {
+            "@type": "OfferCatalog",
+            "name": "Commercial Vehicle Wraps",
+            "description": "Fleet branding and commercial vehicle wraps for business advertising and brand recognition."
+          },
+          {
+            "@type": "OfferCatalog",
+            "name": "Paint Protection Film",
+            "description": "Self-healing paint protection film (PPF) to protect against rock chips, scratches, and road debris."
+          }
+        ]
+      },
+      "priceRange": "$$",
+      "image": "https://staticrestyling.com/images/og/static-restyling-og.jpg",
+      "sameAs": []
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://staticrestyling.com/#website",
+      "url": "https://staticrestyling.com",
+      "name": "Static Restyling",
+      "description": "Gwinnett County's premier automotive restyling studio",
+      "publisher": {
+        "@id": "https://staticrestyling.com/#business"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://staticrestyling.com/#webpage",
+      "url": "https://staticrestyling.com",
+      "name": "Static Restyling | Vehicle Wraps, Window Tinting & PPF in Gwinnett County, GA",
+      "description": "Professional vehicle wrapping, window tinting, paint protection film & commercial wraps in Snellville, GA. Serving Gwinnett County 7 days a week. Call (404) 452-7659.",
+      "isPartOf": {
+        "@id": "https://staticrestyling.com/#website"
+      },
+      "about": {
+        "@id": "https://staticrestyling.com/#business"
+      },
+      "datePublished": "2026-03-21",
+      "dateModified": "2026-03-21"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://staticrestyling.com/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does a vehicle wrap take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most vehicle wraps take 3-5 business days depending on the complexity of the design and the size of the vehicle. Simple color changes may be completed sooner."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does window tinting cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Window tinting pricing varies based on the type of film, number of windows, and vehicle size. Contact us for a free quote tailored to your specific vehicle."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does paint protection film last?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "High-quality PPF typically lasts 5-10 years with proper care. Our premium films come with manufacturer warranties for added peace of mind."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you offer commercial fleet wraps?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes! We specialize in commercial vehicle wraps for fleets of all sizes. From single vans to entire fleets, we provide consistent, high-quality branding solutions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What areas do you serve?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We're located in Snellville, GA and serve all of Gwinnett County including Lawrenceville, Lilburn, Duluth, Suwanee, Loganville, Grayson, Norcross, Buford, and Stone Mountain."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://staticrestyling.com/#service-window-tinting",
+      "name": "Window Tinting",
+      "description": "Professional ceramic and carbon window tinting for UV protection, heat rejection, and privacy. We offer a range of tint shades and film types to meet your needs and comply with Georgia tinting laws.",
+      "provider": {
+        "@id": "https://staticrestyling.com/#business"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Snellville" },
+        { "@type": "City", "name": "Lawrenceville" },
+        { "@type": "City", "name": "Lilburn" },
+        { "@type": "City", "name": "Duluth" },
+        { "@type": "City", "name": "Suwanee" },
+        { "@type": "City", "name": "Loganville" },
+        { "@type": "City", "name": "Grayson" },
+        { "@type": "City", "name": "Norcross" },
+        { "@type": "City", "name": "Buford" },
+        { "@type": "City", "name": "Stone Mountain" },
+        { "@type": "City", "name": "Dacula" },
+        { "@type": "City", "name": "Conyers" },
+        { "@type": "AdministrativeArea", "name": "Gwinnett County" }
+      ],
+      "serviceType": "Window Tinting"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://staticrestyling.com/#service-vinyl-wrapping",
+      "name": "Vinyl Wrapping",
+      "description": "Full and partial vehicle vinyl wraps in matte, gloss, satin, chrome, and custom designs. Transform your vehicle's appearance with a high-quality vinyl wrap that protects your original paint.",
+      "provider": {
+        "@id": "https://staticrestyling.com/#business"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Snellville" },
+        { "@type": "City", "name": "Lawrenceville" },
+        { "@type": "City", "name": "Lilburn" },
+        { "@type": "City", "name": "Duluth" },
+        { "@type": "City", "name": "Suwanee" },
+        { "@type": "City", "name": "Loganville" },
+        { "@type": "City", "name": "Grayson" },
+        { "@type": "City", "name": "Norcross" },
+        { "@type": "City", "name": "Buford" },
+        { "@type": "City", "name": "Stone Mountain" },
+        { "@type": "City", "name": "Dacula" },
+        { "@type": "City", "name": "Conyers" },
+        { "@type": "AdministrativeArea", "name": "Gwinnett County" }
+      ],
+      "serviceType": "Vinyl Wrapping"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://staticrestyling.com/#service-commercial-wraps",
+      "name": "Commercial Vehicle Wraps",
+      "description": "Fleet branding and commercial vehicle wraps for business advertising and brand recognition. We handle fleets of all sizes with consistent, professional results that turn your vehicles into mobile billboards.",
+      "provider": {
+        "@id": "https://staticrestyling.com/#business"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Snellville" },
+        { "@type": "City", "name": "Lawrenceville" },
+        { "@type": "City", "name": "Lilburn" },
+        { "@type": "City", "name": "Duluth" },
+        { "@type": "City", "name": "Suwanee" },
+        { "@type": "City", "name": "Loganville" },
+        { "@type": "City", "name": "Grayson" },
+        { "@type": "City", "name": "Norcross" },
+        { "@type": "City", "name": "Buford" },
+        { "@type": "City", "name": "Stone Mountain" },
+        { "@type": "City", "name": "Dacula" },
+        { "@type": "City", "name": "Conyers" },
+        { "@type": "AdministrativeArea", "name": "Gwinnett County" }
+      ],
+      "serviceType": "Commercial Vehicle Wraps"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://staticrestyling.com/#service-ppf",
+      "name": "Paint Protection Film",
+      "description": "Self-healing paint protection film (PPF) to protect against rock chips, scratches, and road debris. Our premium PPF preserves your vehicle's finish and maintains its resale value for years to come.",
+      "provider": {
+        "@id": "https://staticrestyling.com/#business"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Snellville" },
+        { "@type": "City", "name": "Lawrenceville" },
+        { "@type": "City", "name": "Lilburn" },
+        { "@type": "City", "name": "Duluth" },
+        { "@type": "City", "name": "Suwanee" },
+        { "@type": "City", "name": "Loganville" },
+        { "@type": "City", "name": "Grayson" },
+        { "@type": "City", "name": "Norcross" },
+        { "@type": "City", "name": "Buford" },
+        { "@type": "City", "name": "Stone Mountain" },
+        { "@type": "City", "name": "Dacula" },
+        { "@type": "City", "name": "Conyers" },
+        { "@type": "AdministrativeArea", "name": "Gwinnett County" }
+      ],
+      "serviceType": "Paint Protection Film"
+    }
+  ]
+}
